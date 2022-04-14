@@ -40,10 +40,10 @@ public class GameManager : MonoBehaviour
         names[4].SetText("±©»÷ÉËº¦");
 
         values[0].SetText("57");
-        values[1].SetText(Random.Range(2.0f, 3.0f).ToString());
-        values[2].SetText(Random.Range(3.0f, 4.0f).ToString());
-        values[3].SetText(Random.Range(2.0f, 3.0f).ToString());
-        values[4].SetText(Random.Range(3.0f, 4.0f).ToString());
+        values[1].SetText(Random.Range(2.0f, 3.0f).ToString("0.00"));
+        values[2].SetText(Random.Range(3.0f, 4.0f).ToString("0.00"));
+        values[3].SetText(Random.Range(2.0f, 3.0f).ToString("0.00"));
+        values[4].SetText(Random.Range(3.0f, 4.0f).ToString("0.00"));
 
     }
 
