@@ -30,24 +30,20 @@ public class YuHun : MonoBehaviour
 
     public void GenNewYuhun(int type)
     {
-        //主属性
         YuhunInfo main = GenMainProperty(type);
         singleYuhun.Add(0,main);
         int subNum = Random.Range(2, 5);
-        //副属性
         for (int i = 0; i < subNum; i++)
         {
             YuhunInfo sub = GenSubProperty(type);
             singleYuhun.Add(i+1, sub);
         }
-        //生成完了
-
     }
 
     public YuhunInfo GetYuhun(int pos)
     {
         YuhunInfo yuhunInfo;
-        yuhunInfo = singleYuhun;
+        yuhunInfo = singleYuhun[pos];
         return yuhunInfo;
     }
 
