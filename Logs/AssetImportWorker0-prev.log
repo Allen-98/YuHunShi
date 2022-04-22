@@ -15,11 +15,11 @@ C:/1-Study/Unity Projects/YuHunShi
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49905
+64175
 Successfully changed project path to: C:/1-Study/Unity Projects/YuHunShi
 C:/1-Study/Unity Projects/YuHunShi
 Using Asset Import Pipeline V2.
-AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 8.97 ms, found 0 plugins.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 35.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.24f1c2 (f3616f7ef48a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/Resources/UnitySubsystems
@@ -35,39 +35,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001481 seconds.
+Registered in 0.001801 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 9.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 35.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.401 seconds
+- Completed reload, in  0.421 seconds
 Domain Reload Profiling:
-	ReloadAssembly (401ms)
-		BeginReloadAssembly (40ms)
+	ReloadAssembly (421ms)
+		BeginReloadAssembly (39ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (307ms)
-			LoadAssemblies (38ms)
+		EndReloadAssembly (329ms)
+			LoadAssemblies (37ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (103ms)
+			SetupTypeCache (102ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (107ms)
+			SetupLoadedEditorAssemblies (134ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (10ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (60ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (61ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,36 +75,36 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000590 seconds.
+Registered in 0.002264 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.585 seconds
+- Completed reload, in  0.737 seconds
 Domain Reload Profiling:
-	ReloadAssembly (585ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (738ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (436ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (590ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (134ms)
+			SetupTypeCache (195ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (150ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (234ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (72ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -113,14 +113,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1046 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
+Unloading 2250 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.4 MB.
+System memory in use after: 101.5 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1487.
-Total: 1.979200 ms (FindLiveObjects: 0.122400 ms CreateObjectMapping: 0.024500 ms MarkObjects: 1.780500 ms  DeleteObjects: 0.050800 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2687.
+Total: 2.366400 ms (FindLiveObjects: 0.184500 ms CreateObjectMapping: 0.053400 ms MarkObjects: 2.068400 ms  DeleteObjects: 0.058900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,155 +135,81 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Texture
-  artifactKey: Guid(939d8ded9d4b61446808612df60861ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture using Guid(939d8ded9d4b61446808612df60861ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045426417faa09ab5ba8d6a27a1b9a1e') in 0.006009 seconds 
-  Import took 0.007421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
   path: Assets/Scenes
   artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffae677c86e903bacef8065336249a81') in 0.005295 seconds 
-  Import took 0.006758 seconds .
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffae677c86e903bacef8065336249a81') in 0.008809 seconds 
+  Import took 0.011591 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1333ee985c8b405feb81c7cbd2e221fc') in 0.013399 seconds 
-  Import took 0.015099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 126.623774 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.005053 seconds 
-  Import took 0.006957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.277385 seconds.
-  path: Assets/GameManager.cs
-  artifactKey: Guid(ae0cf1e5edc48a0479d32764a89e943f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameManager.cs using Guid(ae0cf1e5edc48a0479d32764a89e943f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16756274dd62a8c248909cc658e48f49') in 0.022449 seconds 
-  Import took 0.023971 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000474 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.533 seconds
-Domain Reload Profiling:
-	ReloadAssembly (534ms)
-		BeginReloadAssembly (85ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (405ms)
-			LoadAssemblies (59ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (128ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (135ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (65ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1041 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.6 MB.
-System memory in use after: 64.7 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1488.
-Total: 1.814100 ms (FindLiveObjects: 0.099000 ms CreateObjectMapping: 0.025600 ms MarkObjects: 1.677900 ms  DeleteObjects: 0.010600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 5.985060 seconds.
+  Time since last request: 0.000170 seconds.
   path: Assets/Scripts
   artifactKey: Guid(47fd18eaffd4c0843a15221850d3eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(47fd18eaffd4c0843a15221850d3eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8451626334dbf93516441c7b4a5e34') in 0.005952 seconds 
-  Import took 0.007643 seconds .
+Start importing Assets/Scripts using Guid(47fd18eaffd4c0843a15221850d3eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c4b1d528372618d6da9cd68828b8dd') in 0.004655 seconds 
+  Import took 0.007336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a380be18f4e6c74f71d4f766d940d8') in 0.014547 seconds 
+  Import took 0.017702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.017546 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(ae0cf1e5edc48a0479d32764a89e943f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(ae0cf1e5edc48a0479d32764a89e943f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5106ac8d7651e1ad8e63d2a405f58ee2') in 0.027738 seconds 
+  Import took 0.030648 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000468 seconds.
+Registered in 0.002268 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.530 seconds
+- Completed reload, in  0.805 seconds
 Domain Reload Profiling:
-	ReloadAssembly (530ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (806ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (404ms)
-			LoadAssemblies (58ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (658ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (135ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (244ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (66ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1041 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.6 MB.
-System memory in use after: 64.7 MB.
+Unloading 1577 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.4 MB.
+System memory in use after: 86.5 MB.
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1488.
-Total: 1.749800 ms (FindLiveObjects: 0.100300 ms CreateObjectMapping: 0.021200 ms MarkObjects: 1.617600 ms  DeleteObjects: 0.010300 ms)
+Unloading 239 unused Assets to reduce memory usage. Loaded Objects now: 2462.
+Total: 3.046500 ms (FindLiveObjects: 0.191700 ms CreateObjectMapping: 0.049700 ms MarkObjects: 2.730300 ms  DeleteObjects: 0.073900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -299,49 +225,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000435 seconds.
+Registered in 0.002460 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.554 seconds
+- Completed reload, in  0.776 seconds
 Domain Reload Profiling:
-	ReloadAssembly (554ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (776ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (421ms)
-			LoadAssemblies (63ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (619ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (130ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (148ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (243ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (73ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1088 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.7 MB.
-System memory in use after: 67.2 MB.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.6 MB.
+System memory in use after: 82.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1522.
-Total: 2.006600 ms (FindLiveObjects: 0.093400 ms CreateObjectMapping: 0.025100 ms MarkObjects: 1.671800 ms  DeleteObjects: 0.215700 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2465.
+Total: 3.339800 ms (FindLiveObjects: 0.189800 ms CreateObjectMapping: 0.056200 ms MarkObjects: 3.073600 ms  DeleteObjects: 0.019200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -354,411 +280,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 352.897469 seconds.
-  path: Assets/TextMesh Pro
-  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b4cbde9565bf190136f1148817e1ea') in 0.006811 seconds 
-  Import took 0.008630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.534196 seconds.
-  path: Assets/Texture/阴阳师御魂图标
-  artifactKey: Guid(72649d9f70b9b5d4e800b825372fbf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标 using Guid(72649d9f70b9b5d4e800b825372fbf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfae2c1523069769899f0cbfe08af8e') in 0.004648 seconds 
-  Import took 0.006318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051757 seconds.
-  path: Assets/Texture/阴阳师御魂图标/三味.png
-  artifactKey: Guid(13d6d44eae6884f40800b3e31d79bfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/三味.png using Guid(13d6d44eae6884f40800b3e31d79bfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8ca8803b5050db31045c982af57463') in 0.061198 seconds 
-  Import took 0.062932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Texture/阴阳师御魂图标/魍魉之匣.png
-  artifactKey: Guid(8d8f36e712d5eb0468aa56ba59f18fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/魍魉之匣.png using Guid(8d8f36e712d5eb0468aa56ba59f18fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432dddeb56d91996b73421442d3b9f7f') in 0.014522 seconds 
-  Import took 0.016080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Texture/阴阳师御魂图标/被服.png
-  artifactKey: Guid(022addacb3f5bea44b0ce33ed606ef09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/被服.png using Guid(022addacb3f5bea44b0ce33ed606ef09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5feebd721ac1a9731204918b7907a022') in 0.012662 seconds 
-  Import took 0.014353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Texture/阴阳师御魂图标/贝吹坊.jpg
-  artifactKey: Guid(6ea1a809a501bc047afaf5a17f63c27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/贝吹坊.jpg using Guid(6ea1a809a501bc047afaf5a17f63c27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48eb4fbbeb17f9bd6dddd1b6b78013a7') in 0.015435 seconds 
-  Import took 0.017022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Texture/阴阳师御魂图标/木魅.png
-  artifactKey: Guid(f64ff60187a851b4b9e94540fb13c7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/木魅.png using Guid(f64ff60187a851b4b9e94540fb13c7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbe41c806860dbfb7404a5d914de99f') in 0.013062 seconds 
-  Import took 0.014822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Texture/阴阳师御魂图标/魅妖.png
-  artifactKey: Guid(17203217407fdee41b3d7842528d83a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/魅妖.png using Guid(17203217407fdee41b3d7842528d83a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a0658a6e1319c4bd46c70759cd83f1') in 0.013231 seconds 
-  Import took 0.014868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Texture/阴阳师御魂图标/土蜘蛛.png
-  artifactKey: Guid(053f31ea888a45447b2f80c9c57a232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/土蜘蛛.png using Guid(053f31ea888a45447b2f80c9c57a232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d8e5781964e704d8642a50cb59887c') in 0.013267 seconds 
-  Import took 0.014728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Texture/阴阳师御魂图标/返魂香.png
-  artifactKey: Guid(8df51f0d90eff5d4fa5e1c47dc236886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/返魂香.png using Guid(8df51f0d90eff5d4fa5e1c47dc236886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5dba35ce98053a9f35d8cb4e4ca2397') in 0.011532 seconds 
-  Import took 0.013104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Texture/阴阳师御魂图标/轮入道.png
-  artifactKey: Guid(73db0ab828088a749b2fa4af712221a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/轮入道.png using Guid(73db0ab828088a749b2fa4af712221a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbffe7963dbc7c8608d7921221f17e0') in 0.014758 seconds 
-  Import took 0.016300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Texture/阴阳师御魂图标/钟灵.png
-  artifactKey: Guid(b32ce84723440024bae73ab11af45bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/钟灵.png using Guid(b32ce84723440024bae73ab11af45bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de06dd1be17bb77c808657d7f3099b8') in 0.011796 seconds 
-  Import took 0.013280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Texture/阴阳师御魂图标/薙魂.png
-  artifactKey: Guid(b0731347a34a98d4981902df8eadb9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/薙魂.png using Guid(b0731347a34a98d4981902df8eadb9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160dfd813dd9dcbf8e093f7391a6b0e7') in 0.011703 seconds 
-  Import took 0.013604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Texture/阴阳师御魂图标/阴摩罗.png
-  artifactKey: Guid(1fc13641ddd4b6d439db44248bd8e34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/阴摩罗.png using Guid(1fc13641ddd4b6d439db44248bd8e34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e28ee56b1dae8848204d2df19be7fd') in 0.011524 seconds 
-  Import took 0.013203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Texture/阴阳师御魂图标/蜃气楼.png
-  artifactKey: Guid(c53b7baa17dcee943afd26b64e85a96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/蜃气楼.png using Guid(c53b7baa17dcee943afd26b64e85a96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bc873ac0a8298ae7a092cb52a8c0f3') in 0.013491 seconds 
-  Import took 0.014999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Texture/阴阳师御魂图标/兵主部.png
-  artifactKey: Guid(f354edddfbd42d04ba28fddc1ac35b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/兵主部.png using Guid(f354edddfbd42d04ba28fddc1ac35b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1514ca3632e6ef36d31df3b89fe37793') in 0.018039 seconds 
-  Import took 0.019742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Texture/阴阳师御魂图标/共潜.jpg
-  artifactKey: Guid(550c6f2ca19eb2446a939c778c232164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/共潜.jpg using Guid(550c6f2ca19eb2446a939c778c232164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb5e870859ed3d0cc7a5bb46eb5efd2') in 0.014147 seconds 
-  Import took 0.015981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Texture/阴阳师御魂图标/蝠翼.png
-  artifactKey: Guid(cf0ba712b5ef8d84393e322278b9f57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/蝠翼.png using Guid(cf0ba712b5ef8d84393e322278b9f57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f79e5805861c88ddeeca43cca48a2c') in 0.012892 seconds 
-  Import took 0.014446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Texture/阴阳师御魂图标/涅槃之火.png
-  artifactKey: Guid(93b8465f750ac744b98e19dc5ed1295b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/涅槃之火.png using Guid(93b8465f750ac744b98e19dc5ed1295b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9503f61244429cd209724c282972b4') in 0.011961 seconds 
-  Import took 0.013501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Texture/阴阳师御魂图标/地藏像.png
-  artifactKey: Guid(82fe0969aac2e754db7bb835a5608525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/地藏像.png using Guid(82fe0969aac2e754db7bb835a5608525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6faea64ed988408170ab339b33fe5506') in 0.012570 seconds 
-  Import took 0.014303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Texture/阴阳师御魂图标/招财猫.png
-  artifactKey: Guid(af63ec533eecdb341b6f264add81b733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/招财猫.png using Guid(af63ec533eecdb341b6f264add81b733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcf2965f513121b3c4e13cbcd896abb') in 0.012011 seconds 
-  Import took 0.013415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Texture/阴阳师御魂图标/树妖.png
-  artifactKey: Guid(713f11689be0a0a4e9ee7eab202eff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/树妖.png using Guid(713f11689be0a0a4e9ee7eab202eff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1a2e2e64ff99601a0fbfd729993c9b') in 0.011944 seconds 
-  Import took 0.013579 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Texture/阴阳师御魂图标/荒骷髅.png
-  artifactKey: Guid(3bdd762fb70b53841b39a6af40a51d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/荒骷髅.png using Guid(3bdd762fb70b53841b39a6af40a51d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982abb8e72d26414057aa0b152eb4fdb') in 0.011507 seconds 
-  Import took 0.013141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Texture/阴阳师御魂图标/青女房.png
-  artifactKey: Guid(07d8e50b35c24b84ea5c42e26eeeda19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/青女房.png using Guid(07d8e50b35c24b84ea5c42e26eeeda19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b29a3b541ff9eee71bcb373e896a4f') in 0.015084 seconds 
-  Import took 0.016793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Texture/阴阳师御魂图标/胧车.png
-  artifactKey: Guid(55eb4a3724d04b6478f69353d661e3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/胧车.png using Guid(55eb4a3724d04b6478f69353d661e3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fa8ef677d15b027403b644fcd64eba') in 0.013130 seconds 
-  Import took 0.014745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Texture/阴阳师御魂图标/涂佛.png
-  artifactKey: Guid(5cb8b9ff8d96e634a8afcd776ef488a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/涂佛.png using Guid(5cb8b9ff8d96e634a8afcd776ef488a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16bb357f8f56adb583901d5c60f0251') in 0.022132 seconds 
-  Import took 0.023639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Texture/阴阳师御魂图标/遗念火.jpg
-  artifactKey: Guid(87ca5f607b66c234685eb4335563a659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/遗念火.jpg using Guid(87ca5f607b66c234685eb4335563a659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f89fbc6cf2bcb44de7ec23f64eb80e8') in 0.011921 seconds 
-  Import took 0.013326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Texture/阴阳师御魂图标/海月火玉.jpg
-  artifactKey: Guid(824be18f17cbd57489e1a4d0b9462e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/海月火玉.jpg using Guid(824be18f17cbd57489e1a4d0b9462e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc7002b7f0cb6590220e2f01cb6ec41') in 0.014560 seconds 
-  Import took 0.016424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Texture/阴阳师御魂图标/地震鲶.png
-  artifactKey: Guid(32e7cfd2d8716bb4aa4c57c435c43c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/地震鲶.png using Guid(32e7cfd2d8716bb4aa4c57c435c43c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63029412c67ace9494149277f5299e25') in 0.011534 seconds 
-  Import took 0.013204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Texture/阴阳师御魂图标/珍珠.png
-  artifactKey: Guid(eb72b479fbd5e254f8d91775615f6bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/珍珠.png using Guid(eb72b479fbd5e254f8d91775615f6bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc17ef4e760219ddceed695cd6d645b') in 0.012336 seconds 
-  Import took 0.013931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Texture/阴阳师御魂图标/出世螺.jpg
-  artifactKey: Guid(ee231a3203a885e4d8578cb657aa7bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/出世螺.jpg using Guid(ee231a3203a885e4d8578cb657aa7bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93b0011c7596ee0aea99ddfd906a7c4') in 0.013275 seconds 
-  Import took 0.014811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Texture/阴阳师御魂图标/狰.png
-  artifactKey: Guid(101c6dc0e21a37e44921909ab4871f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/狰.png using Guid(101c6dc0e21a37e44921909ab4871f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22b5b21fe1ba96c9b4a84aee9377fc5') in 0.012630 seconds 
-  Import took 0.014294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Texture/阴阳师御魂图标/针女.png
-  artifactKey: Guid(9277cb65fc59040499bc88ae2ccf1923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/针女.png using Guid(9277cb65fc59040499bc88ae2ccf1923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911fb95dcbf48b58c02a9290fc79d9ce') in 0.012605 seconds 
-  Import took 0.014037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Texture/阴阳师御魂图标/骰子鬼.png
-  artifactKey: Guid(c0a37df5f370d6d439ee8c7cc3a6d561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/骰子鬼.png using Guid(c0a37df5f370d6d439ee8c7cc3a6d561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f085c31debe71c8045cbbcac0a2cdf') in 0.012136 seconds 
-  Import took 0.013605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Texture/阴阳师御魂图标/网切.png
-  artifactKey: Guid(7ac3f5aa727d98d48a9a026e5f9c80bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/网切.png using Guid(7ac3f5aa727d98d48a9a026e5f9c80bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b63c5dd1fd819ec125dcc0856b3f1ba') in 0.012066 seconds 
-  Import took 0.013936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Texture/阴阳师御魂图标/火灵.png
-  artifactKey: Guid(44635e83800d6da44b22816e779c06e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/火灵.png using Guid(44635e83800d6da44b22816e779c06e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47005241521f0c093870756e7f2f165') in 0.012166 seconds 
-  Import took 0.013936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Texture/阴阳师御魂图标/镇墓兽.png
-  artifactKey: Guid(7465fc8769e294641a586715d06bbdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/镇墓兽.png using Guid(7465fc8769e294641a586715d06bbdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a43681c6e7a82a1650b22e3470deedd') in 0.011253 seconds 
-  Import took 0.012934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Texture/阴阳师御魂图标/伤魂鸟.png
-  artifactKey: Guid(05b584130a7eb47499e598532c463719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/伤魂鸟.png using Guid(05b584130a7eb47499e598532c463719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f803caf14a910163c437ff6c5d932bb6') in 0.012445 seconds 
-  Import took 0.013943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Texture/阴阳师御魂图标/蚌精.png
-  artifactKey: Guid(2b254833046dbad4f890d9bba8405dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/蚌精.png using Guid(2b254833046dbad4f890d9bba8405dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ca158fec04611db79112cae15bacdf') in 0.011926 seconds 
-  Import took 0.013441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Texture/阴阳师御魂图标/反枕.png
-  artifactKey: Guid(562b976a8c48730489604370febf6cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/反枕.png using Guid(562b976a8c48730489604370febf6cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd405f35d77731ac4a85a632818a2d7fd') in 0.012526 seconds 
-  Import took 0.014386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Texture/阴阳师御魂图标/狂骨.png
-  artifactKey: Guid(27740e08c51e88c4eb3941f744e5bc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/狂骨.png using Guid(27740e08c51e88c4eb3941f744e5bc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139c378d9775d1a2b23661e6bbf5cb32') in 0.012418 seconds 
-  Import took 0.014019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Texture/阴阳师御魂图标/雪幽魂.png
-  artifactKey: Guid(78861515f22108345bffe1550afd6313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/雪幽魂.png using Guid(78861515f22108345bffe1550afd6313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603e4b928f4bf6abcce13066240f23b3') in 0.012068 seconds 
-  Import took 0.013494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Texture/阴阳师御魂图标/幽谷响.png
-  artifactKey: Guid(db0a32088eda63b4caf346d783f717d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/幽谷响.png using Guid(db0a32088eda63b4caf346d783f717d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efde9f030ed670a3646e5a1249b54b2') in 0.013608 seconds 
-  Import took 0.015068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Texture/阴阳师御魂图标/鬼灵歌姬.png
-  artifactKey: Guid(6f14a708477d2b7499916a95c3293749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/鬼灵歌姬.png using Guid(6f14a708477d2b7499916a95c3293749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdeb4660ba441122d8f3644a407030f') in 0.013054 seconds 
-  Import took 0.014741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Texture/阴阳师御魂图标/破势.png
-  artifactKey: Guid(599cdad502674244fae9ffcfc51acce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/破势.png using Guid(599cdad502674244fae9ffcfc51acce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b52b6940b20580c8acb6fa0eac074c') in 0.012176 seconds 
-  Import took 0.013677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Texture/阴阳师御魂图标/镜姬.png
-  artifactKey: Guid(aa1cab0d19cb8f74f9534582fb72ddf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/镜姬.png using Guid(aa1cab0d19cb8f74f9534582fb72ddf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef9375e9272e45e959604e732dbd2c2') in 0.013094 seconds 
-  Import took 0.014776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Texture/阴阳师御魂图标/鸣屋.png
-  artifactKey: Guid(7ce9eb126e1f0664788e89c3c6d8647a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/鸣屋.png using Guid(7ce9eb126e1f0664788e89c3c6d8647a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb2679ae22db77e15119a6385c5e5a9') in 0.011649 seconds 
-  Import took 0.013159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Texture/阴阳师御魂图标/日女巳时.png
-  artifactKey: Guid(d73bf025225433044b4e438fd3cd8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/日女巳时.png using Guid(d73bf025225433044b4e438fd3cd8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60ecff9e15c99b5bab1d7156328e20d') in 0.012942 seconds 
-  Import took 0.014870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Texture/阴阳师御魂图标/心眼.png
-  artifactKey: Guid(cb3f26ec3b4dd774a954dcea4c556c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/心眼.png using Guid(cb3f26ec3b4dd774a954dcea4c556c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ede790e5a6a0686d107ed733a76f3e1') in 0.012384 seconds 
-  Import took 0.014125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Texture/阴阳师御魂图标/恶楼.jpg
-  artifactKey: Guid(bbc8e0656d5152a45838890f387abd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/恶楼.jpg using Guid(bbc8e0656d5152a45838890f387abd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af205af4f149f0c6f53a2ef81ea1d0ae') in 0.013886 seconds 
-  Import took 0.015476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Texture/阴阳师御魂图标/飞缘魔.png
-  artifactKey: Guid(fa38b8c4117688e498e2d3878569d1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/阴阳师御魂图标/飞缘魔.png using Guid(fa38b8c4117688e498e2d3878569d1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e0e4a5d667092d095d363634eb02e1') in 0.010885 seconds 
-  Import took 0.012470 seconds .
-
